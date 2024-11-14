@@ -6,7 +6,9 @@ public class JuniorDeveloper extends Employee{
     }
 
     @Override
-    public void work(){
-        System.out.println("Junior Manager starts to working");
+    public void work() {
+        System.out.println("Junior Developer is working on basic tasks.");
+        setSalary((int) (getSalary() * 1.05));
+        System.out.println("Salary updated to: " + getSalary());
     }
 }

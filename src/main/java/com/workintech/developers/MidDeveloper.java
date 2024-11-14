@@ -6,7 +6,9 @@ public class MidDeveloper extends Employee{
     }
 
     @Override
-    public void work(){
-        System.out.println("Mid developer starts to working");
+    public void work() {
+        System.out.println("Mid Developer is working on intermediate-level projects.");
+        setSalary((int) (getSalary() * 1.10));
+        System.out.println("Salary updated to: " + getSalary());
     }
 }
